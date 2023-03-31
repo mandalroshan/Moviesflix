@@ -13,6 +13,7 @@ import SearchResult from './pages/searchResult/searchResult';
 import Explore from './pages/explore/explore';
 import PageNotFound from './pages/404/PageNotFound';
 
+
 function App() {
   const dispatch = useDispatch()
   const {url} = useSelector((state) => state.home);
